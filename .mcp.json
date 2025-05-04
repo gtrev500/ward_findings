@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+      "mpc-memgraph": {
+        "command": "/usr/bin/uv",
+        "args": [
+            "--directory",
+            "/code/mcp/memgraph_env/mcp-memgraph",
+            "run",
+            "server.py"
+        ]
+     }
+   }
+}
+
